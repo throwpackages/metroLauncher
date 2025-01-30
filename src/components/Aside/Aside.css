@@ -1,0 +1,21 @@
+/* Шрифт под логотип */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.aside {
+  /* position: relative; */
+  width: 164px;
+  padding: 16px 0 0 8px;
+  background-color: rgb(12, 12, 12);
+}
+
+.title {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  font-size: 32px;
+  margin: 0;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}

@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background:transparent;
+  padding: 4px 18px;
+
+  svg {
+    width: 12px;
+    height: 10px;
+
+    path {
+        fill: white;
+    }
+  }
+}
+
+.close__button:hover {
+    background-color: rgba(255, 0, 0, 0.9);
+}
+
+.minimize__button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
